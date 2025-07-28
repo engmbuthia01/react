@@ -25,7 +25,7 @@ const TableBody = (props) => {
 
 class Table extends Component {
     render() {
-        const { chatacterData } = this.props
+        const { characterData } = this.props
 
         return (
             <table>
