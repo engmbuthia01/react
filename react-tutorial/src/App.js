@@ -6,7 +6,7 @@ class App extends Component {
         const characters = [
             {
                 name: 'Charlie',
-                job: 'Janitor'
+                job: 'Janitor',
             },
             {
                 name: 'Mac',
@@ -23,7 +23,7 @@ class App extends Component {
         ]
 
         return (
-            <div className="App">
+            <div className="container">
                 <Table characterData={characters} />
             </div>
         )
