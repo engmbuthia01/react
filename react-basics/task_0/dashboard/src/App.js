@@ -1,12 +1,12 @@
 import React from "react";
-import "./alx-logo.jpg";
+import logo from "./alx-logo.jpg";
 import "./App.css";
 
 function App() {
   return (
     <React.Fragment>
       <div className="App-header">
-        <img src="alx-logo.jpg" alt="This is a logo for ALX Africa"></img>
+        <img src={logo} alt="This is a logo for ALX Africa"></img>
         <h1>School dashboard</h1>
       </div>
       <div className="App-body">
@@ -18,3 +18,5 @@ function App() {
     </React.Fragment>
   );
 }
+
+export default App;
