@@ -1,0 +1,30 @@
+.App-header {
+  display: flex;
+  border-bottom: 2px solid red;
+}
+
+.App-header img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.App-header h1 {
+  color: red;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.App-body {
+  border-bottom: 2px solid red;
+  height: 60vh;
+}
+
+.App-body p {
+  margin: 40px;
+}
+
+.App-footer p {
+  text-align: center;
+}
