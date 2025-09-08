@@ -1,6 +1,7 @@
 .App-header {
   display: flex;
   border-bottom: 2px solid red;
+  margin-top: 200px;
 }
 
 .App-header img {
